@@ -10,6 +10,7 @@
 <body>
 <div id="vis0"></div>
 <div id="vis1"></div>
+<div id="bottomText"></div>
 <script type="text/javascript">
 const vegaspec0 = {
     "width": 300,
@@ -215,7 +216,7 @@ const vegaspec0 = {
                         "signal": "height - 35 + 0 + 0" //Changed this 
                     },
                     "y2": {
-                        "signal": "height - 85 + 0 + 0" //Changed this 
+                        "signal": "height - 55 + 0 + 0" //Changed this 
                     },
                     "stroke": {
                         "value": "black"
@@ -258,7 +259,7 @@ const vegaspec0 = {
                         "value": 93
                     },
                     "y": {
-                        "signal": "height - 85 + 0 + -15" //Changed this 
+                        "signal": "height - 45 + 0 + -15" //Changed this 
                     },
                     "text": {
                         "value": 93
@@ -283,7 +284,7 @@ const vegaspec1 = {
     "height": 30,
     "padding": 10,
     "title": {
-        "text": "Normal range: Systolic blood pressure (90-140 mmHg); Diastolic blood pressure (60-90 mmHg)",
+        "text": "",
         "align": "left",
         "orient": "bottom",
         "font": "sans-serif",
@@ -483,7 +484,7 @@ const vegaspec1 = {
                         "signal": "height - 15 + 0 - 20" //Changed this 
                     },
                     "y2": {
-                        "signal": "height - 65 + 0 - 20" //Changed this
+                        "signal": "height - 35 + 0 - 20" //Changed this
                     },
                     "stroke": {
                         "value": "black"
@@ -526,7 +527,7 @@ const vegaspec1 = {
                         "value": 105
                     },
                     "y": {
-                        "signal": "height - 105 + 0 + 5" //Changed this 
+                        "signal": "height - 65 + 0 + 5" //Changed this 
                     },
                     "text": {
                         "value": 105
@@ -546,6 +547,35 @@ const vegaspec1 = {
     ]
 };
 vegaEmbed('#vis1', vegaspec1);
+const bottomText = {
+    "width": 300,
+  "height": 15,
+  "padding": 10,
+  "marks": [
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": { "value": -10 },
+          "y": { "signal": "height / 2 " },
+          "text": {
+            "value": [
+              "Normal range: Systolic blood pressure (90-140 mmHg); Diastolic,",
+              "blood pressure (60-90 mmHg)"
+            ]
+          },
+          "align": { "value": "left" },
+          "baseline": { "value": "middle" },
+          "fontSize": { "value": 13 },
+          "font": { "value": "sans-serif" },
+          "fill": { "value": "black" }
+        }
+      }
+    }
+  ]
+};
+    
+vegaEmbed('#bottomText', bottomText);
 
 </script>
 </body>

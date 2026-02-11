@@ -4,7 +4,7 @@
     "padding": 10,
     "title": {
         "text": "",
-        "align": "center",
+        "align": "left",
         "font": "Arial",
         "fontSize": 13,
         "color": "black"
@@ -14,19 +14,19 @@
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 90,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 50,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 50,
                     "color": "red",
                     "order": 2
@@ -125,7 +125,7 @@
                         "value": 30
                     },
                     "y": {
-                        "signal": "height/2"
+                        "signal": "height + 30"
                     },
                     "align": {
                         "value": "center"
@@ -182,13 +182,13 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
-                        "signal": "height + 25 + 0 + 0"
+                        "signal": "height + 25 + 0 + 20"
                     },
                     "y2": {
-                        "signal": "height + 70 + 0 + 0"
+                        "signal": "height + 70 + 0 + 20"
                     },
                     "stroke": {
                         "value": "black"
@@ -205,10 +205,10 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
-                        "signal": "height + 25 + 0 + 0"
+                        "signal": "height + 25 + 0 + 20"
                     },
                     "shape": {
                         "value": "triangle-up"
@@ -228,13 +228,13 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
-                        "signal": "height + 115 + 0 + -15"
+                        "signal": "height + 115 + 0 + 5"
                     },
                     "text": {
-                        "value": 93
+                        "value": 148
                     },
                     "align": {
                         "value": "center"

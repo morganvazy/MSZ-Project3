@@ -1,7 +1,7 @@
 [
 {
   "title": {
-	"text": "Systolic blood pressure (mmHg)",
+	"text": "",
 	"align": "left",
 	"font": "Arial",
 	"fontSize": 13,
@@ -35,7 +35,7 @@
 },
 {
   "title": {
-	"text": "Diastolic blood pressure (mmHg)",
+	"text": "",
 	"align": "left",
 	"font": "sans-serif",
 	"fontSize": 13,

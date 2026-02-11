@@ -28,19 +28,19 @@ const vegaspec0 = {
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 90,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 50,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 50,
                     "color": "red",
                     "order": 2
@@ -153,7 +153,7 @@ const vegaspec0 = {
                         "value": 30
                     },
                     "y": {
-                        "signal": "height/2"
+                        "signal": "height + 30"
                     },
                     "align": {
                         "value": "center"
@@ -210,13 +210,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 115
                     },
                     "y": {
-                        "signal": "height - 35 + 0 + 0" //Changed this 
+                        "signal": "height - 35 + 0 + 0" //Changed this
                     },
                     "y2": {
-                        "signal": "height - 55 + 0 + 0" //Changed this 
+                        "signal": "height - 55 + 0 + 0" //Changed this
                     },
                     "stroke": {
                         "value": "black"
@@ -233,13 +233,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 115
                     },
                     "y": {
-                        "signal": "height - 35 + 0 + 0" //Changed this 
+                        "signal": "height - 35 + 0 + 0" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down" //changed this
                     },
                     "fill": {
                         "value": "black"
@@ -256,13 +256,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 115
                     },
                     "y": {
                         "signal": "height - 45 + 0 + -15" //Changed this 
                     },
                     "text": {
-                        "value": 93
+                        "value": 115
                     },
                     "align": {
                         "value": "center"
@@ -286,7 +286,6 @@ const vegaspec1 = {
     "title": {
         "text": "",
         "align": "left",
-        "orient": "bottom",
         "font": "sans-serif",
         "fontSize": 13,
         "color": "black"
@@ -296,19 +295,19 @@ const vegaspec1 = {
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 60,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 30,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 30,
                     "color": "red",
                     "order": 2
@@ -410,6 +409,19 @@ const vegaspec1 = {
                 }
             }
         },
+        { //Added this
+            "type":"text",
+            "encode":{
+                "enter":{
+                    "x":{"value": -10},
+                    "y":{"signal":"height / 2"},
+                    "text":{"value":["Diastolic blood", "pressure (mmHg)"]},
+                    "align":{"value":"right"},
+                    "baseline":{"value":"middle"},
+                    "fontSize":{"value":13}
+                }
+            }
+        },
         {
             "type": "text",
             "from": {
@@ -478,7 +490,7 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 77
                     },
                     "y": {
                         "signal": "height - 15 + 0 - 20" //Changed this 
@@ -501,13 +513,13 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 77
                     },
                     "y": {
-                        "signal": "height -55 + 0 + 20" //Changed this 
+                        "signal": "height -55 + 0 + 20" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down" //Changed this
                     },
                     "fill": {
                         "value": "black"
@@ -524,13 +536,13 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 77
                     },
                     "y": {
-                        "signal": "height - 65 + 0 + 5" //Changed this 
+                        "signal": "height - 65 + 0 + 5" //Changed this
                     },
                     "text": {
-                        "value": 105
+                        "value": 77
                     },
                     "align": {
                         "value": "center"

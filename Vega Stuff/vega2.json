@@ -4,7 +4,7 @@
     "padding": 10,
     "title": {
         "text": "",
-        "align": "center",
+        "align": "left",
         "font": "sans-serif",
         "fontSize": 13,
         "color": "black"
@@ -14,19 +14,19 @@
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 60,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 30,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 30,
                     "color": "red",
                     "order": 2
@@ -182,7 +182,7 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height + 25 + 0 + 20"
@@ -205,7 +205,7 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height + 25 + 0 + 20"
@@ -228,13 +228,13 @@
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height + 115 + 0 + 5"
                     },
                     "text": {
-                        "value": 105
+                        "value": 101
                     },
                     "align": {
                         "value": "center"

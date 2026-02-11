@@ -28,19 +28,19 @@ const vegaspec0 = {
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 90,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 50,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 50,
                     "color": "red",
                     "order": 2
@@ -102,6 +102,69 @@ const vegaspec0 = {
         }
     ],
     "marks": [
+        { //added this; rectangle for the speech bubble
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": {
+                        "signal": "scale('xscale', 121) - 130"
+                        },
+                        "y": { "value": -70 },
+                        "width": { "signal": "width /2" },
+                        "height": { "signal": "height + 20" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 },
+                        "cornerRadius":{"value":6}
+            }
+          }
+        },
+        {"type": "text", //added; for the speech bubble text
+            "encode":{
+                "enter":{
+                    "x": {
+                        "signal": "scale('xscale', 121) - 127"
+                        },
+                    "y":{"value":-55},
+                    "text":{"value":["Average value in your", "age and sex: 121 mm Hg"]},
+                    "align":{"value":"left"},
+                    "baseline":{"value":"middle"},
+                    "fontSize":{"value":13},
+                    "fill":{"value":"black"}
+                }
+            }
+        },
+        {//added; triangle for speech bubble
+        "type": "symbol",
+        "encode": {
+          "enter": {
+            "x": {
+                     "signal": "scale('xscale', 121)"
+                },
+            "y": { "value": -15 },
+            "shape": { "value": "triangle-down" },
+            "size": { "value": 200 },
+            "fill": { "value": "white" },
+            "stroke": { "value": "black" }
+          }
+        }
+      },
+      { //added this; makes the rect and triangle seem cohesive
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": {
+                        "signal": "scale('xscale', 121) - 8"
+                        },
+            "y": { "value": -21 },
+                        "width": { "signal": "17" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "white" },
+                        "strokeWidth": { "value": 1 },
+                        "cornerRadius":{"value":6}
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -153,7 +216,7 @@ const vegaspec0 = {
                         "value": 30
                     },
                     "y": {
-                        "signal": "height/2"
+                        "signal": "height + 30"
                     },
                     "align": {
                         "value": "center"
@@ -210,10 +273,10 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
-                        "signal": "height - 35 + 0 + 0" //Changed this 
+                        "signal": "height - 35 + 0 + 0" //Changed this
                     },
                     "y2": {
                         "signal": "height - 55 + 0 + 0" //Changed this 
@@ -233,7 +296,7 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
                         "signal": "height - 35 + 0 + 0" //Changed this 
@@ -256,13 +319,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 148
                     },
                     "y": {
                         "signal": "height - 45 + 0 + -15" //Changed this 
                     },
                     "text": {
-                        "value": 93
+                        "value": 148
                     },
                     "align": {
                         "value": "center"
@@ -286,7 +349,6 @@ const vegaspec1 = {
     "title": {
         "text": "",
         "align": "left",
-        "orient": "bottom",
         "font": "sans-serif",
         "fontSize": 13,
         "color": "black"
@@ -296,19 +358,19 @@ const vegaspec1 = {
             "name": "table",
             "values": [
                 {
-                    "name": "",
+                    "name": "Low",
                     "end": 60,
                     "color": "red",
                     "order": 0
                 },
                 {
-                    "name": "",
+                    "name": "Normal",
                     "end": 30,
                     "color": "green",
                     "order": 1
                 },
                 {
-                    "name": "",
+                    "name": "High",
                     "end": 30,
                     "color": "red",
                     "order": 2
@@ -370,6 +432,69 @@ const vegaspec1 = {
         }
     ],
     "marks": [
+        { //added this; rectangle for the speech bubble
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": {
+                        "signal": "scale('xscale', 76) - 130"
+                        },
+                        "y": { "value": -70 },
+                        "width": { "signal": "width /2" },
+                        "height": { "signal": "height + 20" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 },
+                        "cornerRadius":{"value":6}
+            }
+          }
+        },
+        {"type": "text", //added; for the speech bubble text
+            "encode":{
+                "enter":{
+                    "x": {
+                        "signal": "scale('xscale', 76) - 127"
+                        },
+                    "y":{"value":-55},
+                    "text":{"value":["Average value in your", "age and sex: 76 mm Hg"]},
+                    "align":{"value":"left"},
+                    "baseline":{"value":"middle"},
+                    "fontSize":{"value":13},
+                    "fill":{"value":"black"}
+                }
+            }
+        },
+        {//added; triangle for speech bubble
+        "type": "symbol",
+        "encode": {
+          "enter": {
+            "x": {
+                     "signal": "scale('xscale', 76)"
+                },
+            "y": { "value": -15 },
+            "shape": { "value": "triangle-down" },
+            "size": { "value": 200 },
+            "fill": { "value": "white" },
+            "stroke": { "value": "black" }
+          }
+        }
+      },
+      { //added this; makes the rect and triangle seem cohesive
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": {
+                        "signal": "scale('xscale', 76) - 8"
+                        },
+            "y": { "value": -21 },
+                        "width": { "signal": "17" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "white" },
+                        "strokeWidth": { "value": 1 },
+                        "cornerRadius":{"value":6}
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -478,7 +603,7 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height - 15 + 0 - 20" //Changed this 
@@ -501,7 +626,7 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height -55 + 0 + 20" //Changed this 
@@ -524,13 +649,13 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 101
                     },
                     "y": {
                         "signal": "height - 65 + 0 + 5" //Changed this 
                     },
                     "text": {
-                        "value": 105
+                        "value": 101
                     },
                     "align": {
                         "value": "center"

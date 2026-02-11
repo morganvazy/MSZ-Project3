@@ -30,19 +30,19 @@ const vegaspec0 = {
                 {
                     "name": "",
                     "end": 90,
-                    "color": "red",
+                    "color": "white",
                     "order": 0
                 },
                 {
                     "name": "",
                     "end": 50,
-                    "color": "green",
+                    "color": "white",
                     "order": 1
                 },
                 {
                     "name": "",
                     "end": 50,
-                    "color": "red",
+                    "color": "white",
                     "order": 2
                 }
             ]
@@ -98,10 +98,24 @@ const vegaspec0 = {
             "scale": "xscale",
             "offset": 0,
             "tickCount": 2,
-            "values" :[90,140] //Very easy to add
+            "values":[90,140] //Added
         }
     ],
     "marks": [
+        {
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": { "value": 0 },
+                        "y": { "value": 0 },
+                        "width": { "signal": "width" },
+                        "height": { "signal": "height" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 }
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -199,7 +213,7 @@ const vegaspec0 = {
                         "value": "black"
                     },
                     "strokeWidth": {
-                        "value": 0
+                        "value": 1
                     }
                 }
             }
@@ -210,13 +224,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 147
                     },
                     "y": {
                         "signal": "height - 35 + 0 + 0" //Changed this 
                     },
                     "y2": {
-                        "signal": "height - 55 + 0 + 0" //Changed this 
+                        "signal": "height - 55 + 0 + 0" //Changed this
                     },
                     "stroke": {
                         "value": "black"
@@ -233,13 +247,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 147
                     },
                     "y": {
-                        "signal": "height - 35 + 0 + 0" //Changed this 
+                        "signal": "height - 35 + 0 + 0" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down"
                     },
                     "fill": {
                         "value": "black"
@@ -256,13 +270,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 147
                     },
                     "y": {
-                        "signal": "height - 45 + 0 + -15" //Changed this 
+                        "signal": "height - 45 + 0 + -15" //Changed this
                     },
                     "text": {
-                        "value": 93
+                        "value": 147
                     },
                     "align": {
                         "value": "center"
@@ -286,7 +300,6 @@ const vegaspec1 = {
     "title": {
         "text": "",
         "align": "left",
-        "orient": "bottom",
         "font": "sans-serif",
         "fontSize": 13,
         "color": "black"
@@ -298,19 +311,19 @@ const vegaspec1 = {
                 {
                     "name": "",
                     "end": 60,
-                    "color": "red",
+                    "color": "white",
                     "order": 0
                 },
                 {
                     "name": "",
                     "end": 30,
-                    "color": "green",
+                    "color": "white",
                     "order": 1
                 },
                 {
                     "name": "",
                     "end": 30,
-                    "color": "red",
+                    "color": "white",
                     "order": 2
                 }
             ]
@@ -366,10 +379,24 @@ const vegaspec1 = {
             "scale": "xscale",
             "offset": 0,
             "tickCount": 2,
-            "values": [60,90] //Added this
+            "values":[60,90] //Added this
         }
     ],
     "marks": [
+         {
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": { "value": 0 },
+                        "y": { "value": 0 },
+                        "width": { "signal": "width" },
+                        "height": { "signal": "height" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 }
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -467,7 +494,7 @@ const vegaspec1 = {
                         "value": "black"
                     },
                     "strokeWidth": {
-                        "value": 0
+                        "value": 1
                     }
                 }
             }
@@ -504,10 +531,10 @@ const vegaspec1 = {
                         "value": 105
                     },
                     "y": {
-                        "signal": "height -55 + 0 + 20" //Changed this 
+                        "signal": "height -55 + 0 + 20" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down" //Changed this
                     },
                     "fill": {
                         "value": "black"

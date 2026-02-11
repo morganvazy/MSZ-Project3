@@ -20,7 +20,7 @@
   },
   "separation": {
 	"color": "black",
-	"width": 5,
+	"width": 1,
 	"excludeEnds": false
   },
   "labels": {
@@ -59,7 +59,7 @@
   },
   "separation": {
 	"color": "black",
-	"width": 5,
+	"width": 1,
 	"excludeEnds": false
   },
   "labels": {

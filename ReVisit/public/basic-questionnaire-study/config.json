@@ -45,12 +45,36 @@
                 "path": "basic-questionnaire-study/assets/A_bloodGlucose_abnormal.html",
                 "response": [
                     {
-                        "id": "A_bloodGlucose_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "A_bloodGlucose_abnormal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodGlucose_abnormal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodGlucose_abnormal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "A_bloodGlucose_abnormal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -60,12 +84,36 @@
                 "path": "basic-questionnaire-study/assets/A_bloodGlucose_normal.html",
                 "response": [
                     {
-                        "id": "A_bloodGlucose_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "A_bloodGlucose_normal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodGlucose_normal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodGlucose_normal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "A_bloodGlucose_normal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -75,12 +123,36 @@
                 "path": "basic-questionnaire-study/assets/A_bloodPressure_abnormal.html",
                 "response": [
                     {
-                        "id": "A_bloodPressure_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "A_bloodPressure_abnormal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodPressure_abnormal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodPressure_abnormal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "A_bloodPressure_abnormal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -90,12 +162,36 @@
                 "path": "basic-questionnaire-study/assets/A_bloodPressure_normal.html",
                 "response": [
                     {
-                        "id": "A_bloodPressure_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "A_bloodPressure_normal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodPressure_normal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "A_bloodPressure_normal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "A_bloodPressure_normal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -105,12 +201,36 @@
                 "path": "basic-questionnaire-study/assets/B_bloodGlucose_abnormal.html",
                 "response": [
                     {
-                        "id": "B_bloodGlucose_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "B_bloodGlucose_abnormal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodGlucose_abnormal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodGlucose_abnormal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "B_bloodGlucose_abnormal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -120,12 +240,36 @@
                 "path": "basic-questionnaire-study/assets/B_bloodGlucose_normal.html",
                 "response": [
                     {
-                        "id": "B_bloodGlucose_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "B_bloodGlucose_normal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodGlucose_normal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodGlucose_normal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "B_bloodGlucose_normal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -135,12 +279,36 @@
                 "path": "basic-questionnaire-study/assets/B_bloodPressure_abnormal.html",
                 "response": [
                     {
-                        "id": "B_bloodPressure_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "B_bloodPressure_abnormal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodPressure_abnormal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodPressure_abnormal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "B_bloodPressure_abnormal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -150,12 +318,36 @@
                 "path": "basic-questionnaire-study/assets/B_bloodPressure_normal.html",
                 "response": [
                     {
-                        "id": "B_bloodPressure_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "B_bloodPressure_normal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodPressure_normal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "B_bloodPressure_normal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "B_bloodPressure_normal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -165,12 +357,36 @@
                 "path": "basic-questionnaire-study/assets/C_bloodGlucose_abnormal.html",
                 "response": [
                     {
-                        "id": "C_bloodGlucose_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "C_bloodGlucose_abnormal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodGlucose_abnormal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodGlucose_abnormal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "C_bloodGlucose_abnormal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -180,12 +396,36 @@
                 "path": "basic-questionnaire-study/assets/C_bloodGlucose_normal.html",
                 "response": [
                     {
-                        "id": "C_bloodGlucose_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "C_bloodGlucose_normal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodGlucose_normal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodGlucose_normal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "C_bloodGlucose_normal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -195,12 +435,36 @@
                 "path": "basic-questionnaire-study/assets/C_bloodPressure_abnormal.html",
                 "response": [
                     {
-                        "id": "C_bloodPressure_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "C_bloodPressure_abnormal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodPressure_abnormal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodPressure_abnormal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "C_bloodPressure_abnormal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -210,12 +474,36 @@
                 "path": "basic-questionnaire-study/assets/C_bloodPressure_normal.html",
                 "response": [
                     {
-                        "id": "C_bloodPressure_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "C_bloodPressure_normal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodPressure_normal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "C_bloodPressure_normal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "C_bloodPressure_normal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -225,12 +513,36 @@
                 "path": "basic-questionnaire-study/assets/D_bloodGlucose_abnormal.html",
                 "response": [
                     {
-                        "id": "D_bloodGlucose_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "D_bloodGlucose_abnormal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodGlucose_abnormal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodGlucose_abnormal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "D_bloodGlucose_abnormal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -240,12 +552,36 @@
                 "path": "basic-questionnaire-study/assets/D_bloodGlucose_normal.html",
                 "response": [
                     {
-                        "id": "D_bloodGlucose_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "D_bloodGlucose_normal_fasting_value",
+                        "prompt": "What is the fasting blood glucose value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodGlucose_normal_postprandial_value",
+                        "prompt": "What is the two hours postprandial blood glucose value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodGlucose_normal_fasting_normal",
+                        "prompt": "Is fasting blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "D_bloodGlucose_normal_postprandial_normal",
+                        "prompt": "Is two hours postprandial blood glucose normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -255,12 +591,36 @@
                 "path": "basic-questionnaire-study/assets/D_bloodPressure_abnormal.html",
                 "response": [
                     {
-                        "id": "D_bloodPressure_abnormal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "D_bloodPressure_abnormal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodPressure_abnormal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodPressure_abnormal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "D_bloodPressure_abnormal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
@@ -270,12 +630,36 @@
                 "path": "basic-questionnaire-study/assets/D_bloodPressure_normal.html",
                 "response": [
                     {
-                        "id": "D_bloodPressure_normal_response",
-                        "prompt": "Based on the visualization above, what is your answer?",
+                        "id": "D_bloodPressure_normal_systolic_value",
+                        "prompt": "What is the systolic value?",
                         "required": true,
                         "location": "belowStimulus",
-                        "type": "shortText",
-                        "placeholder": "Enter your response"
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodPressure_normal_diastolic_value",
+                        "prompt": "What is the diastolic value?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "numerical",
+                        "placeholder": "Enter numerical value"
+                    },
+                    {
+                        "id": "D_bloodPressure_normal_systolic_normal",
+                        "prompt": "Is systolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
+                    },
+                    {
+                        "id": "D_bloodPressure_normal_diastolic_normal",
+                        "prompt": "Is diastolic normal?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "dropdown",
+                        "options": ["Yes", "No"]
                     }
                 ],
                 "instructionLocation": "aboveStimulus"

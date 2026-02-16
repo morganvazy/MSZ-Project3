@@ -142,6 +142,7 @@
     <script>
         // 5 minutes in seconds
         let timeLeft = 5 * 60;
+        let timerInterval;
         const timerElement = document.getElementById('timer');
         const breakContent = document.getElementById('break-content');
         const completedContent = document.getElementById('completed-content');
@@ -191,6 +192,9 @@
             timerElement.textContent = formattedTime;
             
             if (timeLeft <= 0) {
+                // Clear the interval to stop the timer
+                clearInterval(timerInterval);
+                
                 // Timer completed
                 timerElement.textContent = "00:00";
                 timerElement.style.color = "#27ae60";
@@ -220,14 +224,9 @@
             setTimeout(disableNavigation, 100); // Small delay to ensure parent elements are loaded
         });
         
-        // Update timer immediately, then every second
+        // Update timer immediately, then start interval
         updateTimer();
-        const interval = setInterval(updateTimer, 1000);
-        
-        // Clear interval when timer reaches zero
-        setTimeout(() => {
-            clearInterval(interval);
-        }, (timeLeft + 1) * 1000);
+        timerInterval = setInterval(updateTimer, 1000);
     </script>
 </body>
 </html>

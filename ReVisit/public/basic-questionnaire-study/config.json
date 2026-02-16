@@ -1,0 +1,120 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "MSZ Study",
+        "version": "pilot",
+        "authors": [
+            "Morgan Vasiliou, Skylar Lin, Zoë Fisk"
+        ],
+        "date": "2026-02-16",
+        "description": "A simple questionnaire study",
+        "organizations": [
+            "WPI"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "contact@revisit.dev",
+        "helpTextPath": "basic-questionnaire-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "withSidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "basic-questionnaire-study/assets/introduction.md",
+            "response": []
+        },
+        "participant-stats": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "q1-age",
+                    "prompt": "What is your age?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please enter your age group",
+                    "options": ["18-40", "40-60"]
+                }
+            ]
+        },
+        "first-RRNL": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/replicatedStudyA.html",
+                "response": [
+                    {
+                        "id": "studyA-response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+                "second-RRNL": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/replicatedStudyB.html",
+                "response": [
+                    {
+                        "id": "studyB-response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "third-RRNL": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/replicatedStudyC.html",
+                "response": [
+                    {
+                        "id": "studyC-response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "fourth-RRNL": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/replicatedstudyD.html",
+                "response": [
+                    {
+                        "id": "studyD-response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "participant-stats",
+            {
+                "order": "random",
+                "components": [
+                    "first-RRNL",
+                    "second-RRNL",
+                    "third-RRNL",
+                    "fourth-RRNL"
+                ]
+            }
+        ]
+    }
+}

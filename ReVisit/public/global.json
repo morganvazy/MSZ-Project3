@@ -223,6 +223,9 @@
     "example-VLAT-adaptive": {
       "path": "example-VLAT-adaptive/config.json",
       "test": true
+    },
+    "basic-questionnaire-study": {
+      "path": "basic-questionnaire-study/config.json",
     }
   }
 }

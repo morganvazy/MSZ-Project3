@@ -46,7 +46,6 @@
     "test-audio",
     "test-library",
     "test-likert-matrix",
-    "test-parser-errors",
     "test-randomization",
     "test-skip-logic",
     "test-step-logic",

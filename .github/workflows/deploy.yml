@@ -38,7 +38,13 @@ jobs:
         run: cp dist/index.html dist/404.html
         
       - name: List build output (debug)
-        run: ls -la dist/
+        run: |
+          echo "=== Dist directory contents ==="
+          ls -la dist/
+          echo "=== Basic questionnaire study contents ==="
+          ls -la dist/basic-questionnaire-study/ || echo "basic-questionnaire-study directory not found"
+          echo "=== Global.json exists? ==="
+          ls -la dist/global.json || echo "global.json not found"
         
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4

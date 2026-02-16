@@ -40,12 +40,12 @@
                 }
             ]
         },
-        "first-RRNL": {
+        "A_bloodGlucose_abnormal": {
                 "type": "website",
-                "path": "basic-questionnaire-study/assets/replicatedStudyA.html",
+                "path": "basic-questionnaire-study/assets/A_bloodGlucose_abnormal.html",
                 "response": [
                     {
-                        "id": "studyA-response",
+                        "id": "A_bloodGlucose_abnormal_response",
                         "prompt": "Based on the visualization above, what is your answer?",
                         "required": true,
                         "location": "belowStimulus",
@@ -55,12 +55,12 @@
                 ],
                 "instructionLocation": "aboveStimulus"
         },
-                "second-RRNL": {
+        "A_bloodGlucose_normal": {
                 "type": "website",
-                "path": "basic-questionnaire-study/assets/replicatedStudyB.html",
+                "path": "basic-questionnaire-study/assets/A_bloodGlucose_normal.html",
                 "response": [
                     {
-                        "id": "studyB-response",
+                        "id": "A_bloodGlucose_normal_response",
                         "prompt": "Based on the visualization above, what is your answer?",
                         "required": true,
                         "location": "belowStimulus",
@@ -70,12 +70,12 @@
                 ],
                 "instructionLocation": "aboveStimulus"
         },
-        "third-RRNL": {
+        "A_bloodPressure_abnormal": {
                 "type": "website",
-                "path": "basic-questionnaire-study/assets/replicatedStudyC.html",
+                "path": "basic-questionnaire-study/assets/A_bloodPressure_abnormal.html",
                 "response": [
                     {
-                        "id": "studyC-response",
+                        "id": "A_bloodPressure_abnormal_response",
                         "prompt": "Based on the visualization above, what is your answer?",
                         "required": true,
                         "location": "belowStimulus",
@@ -85,12 +85,192 @@
                 ],
                 "instructionLocation": "aboveStimulus"
         },
-        "fourth-RRNL": {
+        "A_bloodPressure_normal": {
                 "type": "website",
-                "path": "basic-questionnaire-study/assets/replicatedstudyD.html",
+                "path": "basic-questionnaire-study/assets/A_bloodPressure_normal.html",
                 "response": [
                     {
-                        "id": "studyD-response",
+                        "id": "A_bloodPressure_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "B_bloodGlucose_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/B_bloodGlucose_abnormal.html",
+                "response": [
+                    {
+                        "id": "B_bloodGlucose_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "B_bloodGlucose_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/B_bloodGlucose_normal.html",
+                "response": [
+                    {
+                        "id": "B_bloodGlucose_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "B_bloodPressure_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/B_bloodPressure_abnormal.html",
+                "response": [
+                    {
+                        "id": "B_bloodPressure_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "B_bloodPressure_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/B_bloodPressure_normal.html",
+                "response": [
+                    {
+                        "id": "B_bloodPressure_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "C_bloodGlucose_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/C_bloodGlucose_abnormal.html",
+                "response": [
+                    {
+                        "id": "C_bloodGlucose_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "C_bloodGlucose_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/C_bloodGlucose_normal.html",
+                "response": [
+                    {
+                        "id": "C_bloodGlucose_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "C_bloodPressure_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/C_bloodPressure_abnormal.html",
+                "response": [
+                    {
+                        "id": "C_bloodPressure_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "C_bloodPressure_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/C_bloodPressure_normal.html",
+                "response": [
+                    {
+                        "id": "C_bloodPressure_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "D_bloodGlucose_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/D_bloodGlucose_abnormal.html",
+                "response": [
+                    {
+                        "id": "D_bloodGlucose_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "D_bloodGlucose_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/D_bloodGlucose_normal.html",
+                "response": [
+                    {
+                        "id": "D_bloodGlucose_normal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "D_bloodPressure_abnormal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/D_bloodPressure_abnormal.html",
+                "response": [
+                    {
+                        "id": "D_bloodPressure_abnormal_response",
+                        "prompt": "Based on the visualization above, what is your answer?",
+                        "required": true,
+                        "location": "belowStimulus",
+                        "type": "shortText",
+                        "placeholder": "Enter your response"
+                    }
+                ],
+                "instructionLocation": "aboveStimulus"
+        },
+        "D_bloodPressure_normal": {
+                "type": "website",
+                "path": "basic-questionnaire-study/assets/D_bloodPressure_normal.html",
+                "response": [
+                    {
+                        "id": "D_bloodPressure_normal_response",
                         "prompt": "Based on the visualization above, what is your answer?",
                         "required": true,
                         "location": "belowStimulus",
@@ -109,10 +289,22 @@
             {
                 "order": "random",
                 "components": [
-                    "first-RRNL",
-                    "second-RRNL",
-                    "third-RRNL",
-                    "fourth-RRNL"
+                    "A_bloodGlucose_abnormal",
+                    "A_bloodGlucose_normal",
+                    "A_bloodPressure_abnormal",
+                    "A_bloodPressure_normal",
+                    "B_bloodGlucose_abnormal",
+                    "B_bloodGlucose_normal",
+                    "B_bloodPressure_abnormal",
+                    "B_bloodPressure_normal",
+                    "C_bloodGlucose_abnormal",
+                    "C_bloodGlucose_normal",
+                    "C_bloodPressure_abnormal",
+                    "C_bloodPressure_normal",
+                    "D_bloodGlucose_abnormal",
+                    "D_bloodGlucose_normal",
+                    "D_bloodPressure_abnormal",
+                    "D_bloodPressure_normal"
                 ]
             }
         ]

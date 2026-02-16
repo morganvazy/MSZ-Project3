@@ -80,7 +80,13 @@
                 "instructionLocation": "aboveStimulus",
                 "meta": {
                     "taskId": "A_bloodGlucose_abnormal",
-                    "trackTime": true
+                    "trackTime": true,
+                    "correctAnswers": {
+                        "A_bloodGlucose_abnormal_fasting_value": 7.2,
+                        "A_bloodGlucose_abnormal_postprandial_value": 12.5,
+                        "A_bloodGlucose_abnormal_fasting_normal": "No",
+                        "A_bloodGlucose_abnormal_postprandial_normal": "No"
+                    }
                 }
         },
         "A_bloodGlucose_normal": {
@@ -123,7 +129,13 @@
                 "instructionLocation": "aboveStimulus",
                 "meta": {
                     "taskId": "A_bloodGlucose_normal",
-                    "trackTime": true
+                    "trackTime": true,
+                    "correctAnswers": {
+                        "A_bloodGlucose_normal_fasting_value": 5.1,
+                        "A_bloodGlucose_normal_postprandial_value": 6.8,
+                        "A_bloodGlucose_normal_fasting_normal": "Yes",
+                        "A_bloodGlucose_normal_postprandial_normal": "Yes"
+                    }
                 }
         },
         "A_bloodPressure_abnormal": {
@@ -166,7 +178,13 @@
                 "instructionLocation": "aboveStimulus",
                 "meta": {
                     "taskId": "A_bloodPressure_abnormal",
-                    "trackTime": true
+                    "trackTime": true,
+                    "correctAnswers": {
+                        "A_bloodPressure_abnormal_systolic_value": 165,
+                        "A_bloodPressure_abnormal_diastolic_value": 95,
+                        "A_bloodPressure_abnormal_systolic_normal": "No",
+                        "A_bloodPressure_abnormal_diastolic_normal": "No"
+                    }
                 }
         },
         "A_bloodPressure_normal": {
@@ -765,7 +783,8 @@
                     "D_bloodGlucose_abnormal",
                     "D_bloodPressure_normal"
                 ]
-            }
+            },
+            "study-results"
         ]
     }
 }

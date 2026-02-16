@@ -750,6 +750,11 @@
             "type": "website",
             "path": "basic-questionnaire-study/assets/break-timer.html",
             "response": []
+        },
+        "study-results": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/results.html",
+            "response": []
         }
     },
     "sequence": {

@@ -279,6 +279,11 @@
                     }
                 ],
                 "instructionLocation": "aboveStimulus"
+        },
+        "break-component": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/break-timer.html",
+            "response": []
         }
     },
     "sequence": {
@@ -290,20 +295,26 @@
                 "order": "random",
                 "components": [
                     "A_bloodGlucose_abnormal",
-                    "A_bloodGlucose_normal",
-                    "A_bloodPressure_abnormal",
                     "A_bloodPressure_normal",
-                    "B_bloodGlucose_abnormal",
                     "B_bloodGlucose_normal",
                     "B_bloodPressure_abnormal",
-                    "B_bloodPressure_normal",
                     "C_bloodGlucose_abnormal",
+                    "C_bloodPressure_normal",
+                    "D_bloodGlucose_normal",
+                    "D_bloodPressure_abnormal"
+                ]
+            },
+            "break-component",
+            {
+                "order": "random",
+                "components": [
+                    "A_bloodGlucose_normal",
+                    "A_bloodPressure_abnormal",
+                    "B_bloodGlucose_abnormal",
+                    "B_bloodPressure_normal",
                     "C_bloodGlucose_normal",
                     "C_bloodPressure_abnormal",
-                    "C_bloodPressure_normal",
                     "D_bloodGlucose_abnormal",
-                    "D_bloodGlucose_normal",
-                    "D_bloodPressure_abnormal",
                     "D_bloodPressure_normal"
                 ]
             }

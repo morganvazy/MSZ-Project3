@@ -13,7 +13,7 @@
         ]
     },
     "uiConfig": {
-        "contactEmail": "contact@revisit.dev",
+        "contactEmail": "gr-datavis-26@wpi.edu",
         "helpTextPath": "basic-questionnaire-study/assets/help.md",
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,

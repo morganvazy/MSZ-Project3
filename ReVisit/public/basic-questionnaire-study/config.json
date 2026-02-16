@@ -77,7 +77,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "A_bloodGlucose_abnormal",
+                    "trackTime": true
+                }
         },
         "A_bloodGlucose_normal": {
                 "type": "website",
@@ -116,7 +120,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "A_bloodGlucose_normal",
+                    "trackTime": true
+                }
         },
         "A_bloodPressure_abnormal": {
                 "type": "website",
@@ -155,7 +163,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "A_bloodPressure_abnormal",
+                    "trackTime": true
+                }
         },
         "A_bloodPressure_normal": {
                 "type": "website",
@@ -194,7 +206,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "A_bloodPressure_normal",
+                    "trackTime": true
+                }
         },
         "B_bloodGlucose_abnormal": {
                 "type": "website",
@@ -233,7 +249,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "B_bloodGlucose_abnormal",
+                    "trackTime": true
+                }
         },
         "B_bloodGlucose_normal": {
                 "type": "website",
@@ -272,7 +292,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "B_bloodGlucose_normal",
+                    "trackTime": true
+                }
         },
         "B_bloodPressure_abnormal": {
                 "type": "website",
@@ -311,7 +335,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "B_bloodPressure_abnormal",
+                    "trackTime": true
+                }
         },
         "B_bloodPressure_normal": {
                 "type": "website",
@@ -350,7 +378,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "B_bloodPressure_normal",
+                    "trackTime": true
+                }
         },
         "C_bloodGlucose_abnormal": {
                 "type": "website",
@@ -389,7 +421,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "C_bloodGlucose_abnormal",
+                    "trackTime": true
+                }
         },
         "C_bloodGlucose_normal": {
                 "type": "website",
@@ -428,7 +464,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "C_bloodGlucose_normal",
+                    "trackTime": true
+                }
         },
         "C_bloodPressure_abnormal": {
                 "type": "website",
@@ -467,7 +507,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "C_bloodPressure_abnormal",
+                    "trackTime": true
+                }
         },
         "C_bloodPressure_normal": {
                 "type": "website",
@@ -506,7 +550,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "C_bloodPressure_normal",
+                    "trackTime": true
+                }
         },
         "D_bloodGlucose_abnormal": {
                 "type": "website",
@@ -545,7 +593,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "D_bloodGlucose_abnormal",
+                    "trackTime": true
+                }
         },
         "D_bloodGlucose_normal": {
                 "type": "website",
@@ -584,7 +636,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "D_bloodGlucose_normal",
+                    "trackTime": true
+                }
         },
         "D_bloodPressure_abnormal": {
                 "type": "website",
@@ -623,7 +679,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "D_bloodPressure_abnormal",
+                    "trackTime": true
+                }
         },
         "D_bloodPressure_normal": {
                 "type": "website",
@@ -662,7 +722,11 @@
                         "options": ["Yes", "No"]
                     }
                 ],
-                "instructionLocation": "aboveStimulus"
+                "instructionLocation": "aboveStimulus",
+                "meta": {
+                    "taskId": "D_bloodPressure_normal",
+                    "trackTime": true
+                }
         },
         "break-component": {
             "type": "website",

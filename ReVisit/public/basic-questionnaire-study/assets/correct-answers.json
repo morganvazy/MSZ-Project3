@@ -1,0 +1,401 @@
+{
+  "A_bloodGlucose_abnormal": {
+    "A_bloodGlucose_abnormal_fasting_value": {
+      "type": "numerical",
+      "value": 7.1,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization A (abnormal case)"
+    },
+    "A_bloodGlucose_abnormal_postprandial_value": {
+      "type": "numerical", 
+      "value": 12.2,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization A (abnormal case)"
+    },
+    "A_bloodGlucose_abnormal_fasting_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is fasting glucose normal in visualization A (abnormal case)"
+    },
+    "A_bloodGlucose_abnormal_postprandial_normal": {
+      "type": "categorical",
+      "value": "No", 
+      "description": "Is post-meal glucose normal in visualization A (abnormal case)"
+    }
+  },
+  
+  "A_bloodGlucose_normal": {
+    "A_bloodGlucose_normal_fasting_value": {
+      "type": "numerical",
+      "value": 5.1,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization A (normal case)"
+    },
+    "A_bloodGlucose_normal_postprandial_value": {
+      "type": "numerical",
+      "value": 6.8, 
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization A (normal case)"
+    },
+    "A_bloodGlucose_normal_fasting_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is fasting glucose normal in visualization A (normal case)"
+    },
+    "A_bloodGlucose_normal_postprandial_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is post-meal glucose normal in visualization A (normal case)"
+    }
+  },
+  
+  "A_bloodPressure_abnormal": {
+    "A_bloodPressure_abnormal_systolic_value": {
+      "type": "numerical",
+      "value": 165,
+      "tolerance": 5,
+      "description": "Systolic pressure reading from visualization A (abnormal case)"
+    },
+    "A_bloodPressure_abnormal_diastolic_value": {
+      "type": "numerical",
+      "value": 95,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization A (abnormal case)"  
+    },
+    "A_bloodPressure_abnormal_systolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is systolic pressure normal in visualization A (abnormal case)"
+    },
+    "A_bloodPressure_abnormal_diastolic_normal": {
+      "type": "categorical", 
+      "value": "No",
+      "description": "Is diastolic pressure normal in visualization A (abnormal case)"
+    }
+  },
+  
+  "A_bloodPressure_normal": {
+    "A_bloodPressure_normal_systolic_value": {
+      "type": "numerical",
+      "value": 118,
+      "tolerance": 3,
+      "description": "Systolic pressure reading from visualization A (normal case)"
+    },
+    "A_bloodPressure_normal_diastolic_value": {
+      "type": "numerical", 
+      "value": 78,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization A (normal case)"
+    },
+    "A_bloodPressure_normal_systolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is systolic pressure normal in visualization A (normal case)"
+    },
+    "A_bloodPressure_normal_diastolic_normal": {
+      "type": "categorical",
+      "value": "Yes", 
+      "description": "Is diastolic pressure normal in visualization A (normal case)"
+    }
+  },
+
+  "B_bloodGlucose_abnormal": {
+    "B_bloodGlucose_abnormal_fasting_value": {
+      "type": "numerical",
+      "value": 8.3,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization B (abnormal case)"
+    },
+    "B_bloodGlucose_abnormal_postprandial_value": {
+      "type": "numerical",
+      "value": 14.1,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization B (abnormal case)"
+    },
+    "B_bloodGlucose_abnormal_fasting_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is fasting glucose normal in visualization B (abnormal case)"
+    },
+    "B_bloodGlucose_abnormal_postprandial_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is post-meal glucose normal in visualization B (abnormal case)"
+    }
+  },
+
+  "B_bloodGlucose_normal": {
+    "B_bloodGlucose_normal_fasting_value": {
+      "type": "numerical",
+      "value": 4.8,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization B (normal case)"
+    },
+    "B_bloodGlucose_normal_postprandial_value": {
+      "type": "numerical",
+      "value": 7.2,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization B (normal case)"
+    },
+    "B_bloodGlucose_normal_fasting_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is fasting glucose normal in visualization B (normal case)"
+    },
+    "B_bloodGlucose_normal_postprandial_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is post-meal glucose normal in visualization B (normal case)"
+    }
+  },
+
+  "B_bloodPressure_abnormal": {
+    "B_bloodPressure_abnormal_systolic_value": {
+      "type": "numerical",
+      "value": 172,
+      "tolerance": 5,
+      "description": "Systolic pressure reading from visualization B (abnormal case)"
+    },
+    "B_bloodPressure_abnormal_diastolic_value": {
+      "type": "numerical",
+      "value": 98,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization B (abnormal case)"
+    },
+    "B_bloodPressure_abnormal_systolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is systolic pressure normal in visualization B (abnormal case)"
+    },
+    "B_bloodPressure_abnormal_diastolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is diastolic pressure normal in visualization B (abnormal case)"
+    }
+  },
+
+  "B_bloodPressure_normal": {
+    "B_bloodPressure_normal_systolic_value": {
+      "type": "numerical",
+      "value": 115,
+      "tolerance": 3,
+      "description": "Systolic pressure reading from visualization B (normal case)"
+    },
+    "B_bloodPressure_normal_diastolic_value": {
+      "type": "numerical",
+      "value": 76,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization B (normal case)"
+    },
+    "B_bloodPressure_normal_systolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is systolic pressure normal in visualization B (normal case)"
+    },
+    "B_bloodPressure_normal_diastolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is diastolic pressure normal in visualization B (normal case)"
+    }
+  },
+
+  "C_bloodGlucose_abnormal": {
+    "C_bloodGlucose_abnormal_fasting_value": {
+      "type": "numerical",
+      "value": 9.1,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization C (abnormal case)"
+    },
+    "C_bloodGlucose_abnormal_postprandial_value": {
+      "type": "numerical",
+      "value": 15.8,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization C (abnormal case)"
+    },
+    "C_bloodGlucose_abnormal_fasting_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is fasting glucose normal in visualization C (abnormal case)"
+    },
+    "C_bloodGlucose_abnormal_postprandial_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is post-meal glucose normal in visualization C (abnormal case)"
+    }
+  },
+
+  "C_bloodGlucose_normal": {
+    "C_bloodGlucose_normal_fasting_value": {
+      "type": "numerical",
+      "value": 5.4,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization C (normal case)"
+    },
+    "C_bloodGlucose_normal_postprandial_value": {
+      "type": "numerical",
+      "value": 6.9,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization C (normal case)"
+    },
+    "C_bloodGlucose_normal_fasting_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is fasting glucose normal in visualization C (normal case)"
+    },
+    "C_bloodGlucose_normal_postprandial_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is post-meal glucose normal in visualization C (normal case)"
+    }
+  },
+
+  "C_bloodPressure_abnormal": {
+    "C_bloodPressure_abnormal_systolic_value": {
+      "type": "numerical",
+      "value": 158,
+      "tolerance": 5,
+      "description": "Systolic pressure reading from visualization C (abnormal case)"
+    },
+    "C_bloodPressure_abnormal_diastolic_value": {
+      "type": "numerical",
+      "value": 92,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization C (abnormal case)"
+    },
+    "C_bloodPressure_abnormal_systolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is systolic pressure normal in visualization C (abnormal case)"
+    },
+    "C_bloodPressure_abnormal_diastolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is diastolic pressure normal in visualization C (abnormal case)"
+    }
+  },
+
+  "C_bloodPressure_normal": {
+    "C_bloodPressure_normal_systolic_value": {
+      "type": "numerical",
+      "value": 122,
+      "tolerance": 3,
+      "description": "Systolic pressure reading from visualization C (normal case)"
+    },
+    "C_bloodPressure_normal_diastolic_value": {
+      "type": "numerical",
+      "value": 80,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization C (normal case)"
+    },
+    "C_bloodPressure_normal_systolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is systolic pressure normal in visualization C (normal case)"
+    },
+    "C_bloodPressure_normal_diastolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is diastolic pressure normal in visualization C (normal case)"
+    }
+  },
+
+  "D_bloodGlucose_abnormal": {
+    "D_bloodGlucose_abnormal_fasting_value": {
+      "type": "numerical",
+      "value": 8.7,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization D (abnormal case)"
+    },
+    "D_bloodGlucose_abnormal_postprandial_value": {
+      "type": "numerical",
+      "value": 13.9,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization D (abnormal case)"
+    },
+    "D_bloodGlucose_abnormal_fasting_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is fasting glucose normal in visualization D (abnormal case)"
+    },
+    "D_bloodGlucose_abnormal_postprandial_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is post-meal glucose normal in visualization D (abnormal case)"
+    }
+  },
+
+  "D_bloodGlucose_normal": {
+    "D_bloodGlucose_normal_fasting_value": {
+      "type": "numerical",
+      "value": 5.2,
+      "tolerance": 0.3,
+      "description": "Fasting glucose reading from visualization D (normal case)"
+    },
+    "D_bloodGlucose_normal_postprandial_value": {
+      "type": "numerical",
+      "value": 7.1,
+      "tolerance": 0.3,
+      "description": "Post-meal glucose reading from visualization D (normal case)"
+    },
+    "D_bloodGlucose_normal_fasting_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is fasting glucose normal in visualization D (normal case)"
+    },
+    "D_bloodGlucose_normal_postprandial_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is post-meal glucose normal in visualization D (normal case)"
+    }
+  },
+
+  "D_bloodPressure_abnormal": {
+    "D_bloodPressure_abnormal_systolic_value": {
+      "type": "numerical",
+      "value": 168,
+      "tolerance": 5,
+      "description": "Systolic pressure reading from visualization D (abnormal case)"
+    },
+    "D_bloodPressure_abnormal_diastolic_value": {
+      "type": "numerical",
+      "value": 96,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization D (abnormal case)"
+    },
+    "D_bloodPressure_abnormal_systolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is systolic pressure normal in visualization D (abnormal case)"
+    },
+    "D_bloodPressure_abnormal_diastolic_normal": {
+      "type": "categorical",
+      "value": "No",
+      "description": "Is diastolic pressure normal in visualization D (abnormal case)"
+    }
+  },
+
+  "D_bloodPressure_normal": {
+    "D_bloodPressure_normal_systolic_value": {
+      "type": "numerical",
+      "value": 119,
+      "tolerance": 3,
+      "description": "Systolic pressure reading from visualization D (normal case)"
+    },
+    "D_bloodPressure_normal_diastolic_value": {
+      "type": "numerical",
+      "value": 79,
+      "tolerance": 3,
+      "description": "Diastolic pressure reading from visualization D (normal case)"
+    },
+    "D_bloodPressure_normal_systolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is systolic pressure normal in visualization D (normal case)"
+    },
+    "D_bloodPressure_normal_diastolic_normal": {
+      "type": "categorical",
+      "value": "Yes",
+      "description": "Is diastolic pressure normal in visualization D (normal case)"
+    }
+  }
+}

@@ -25,24 +25,25 @@ const vegaspec0 = {
     },
     "data": [
         {
+            "format": ".4f",
             "name": "table",
             "values": [
                 {
                     "name": "",
-                    "end": 90,
-                    "color": "red",
+                    "end": 3.6,
+                    "color": "white",
                     "order": 0
                 },
                 {
                     "name": "",
-                    "end": 50,
-                    "color": "green",
+                    "end": 3.3,
+                    "color": "white",
                     "order": 1
                 },
                 {
                     "name": "",
-                    "end": 50,
-                    "color": "red",
+                    "end": 3.6,
+                    "color": "white",
                     "order": 2
                 }
             ]
@@ -88,20 +89,35 @@ const vegaspec0 = {
                 "field": "x1"
             },
             "range": "width",
-            "domainMin": 40,
+            "domainMin":0,
             "zero": false
         }
     ],
     "axes": [
         {
+            "format": ".1f",
             "orient": "bottom",
             "scale": "xscale",
             "offset": 0,
             "tickCount": 2,
-            "values" :[90,140] //Very easy to add
+            "values":[3.6,6.9] //Added
         }
     ],
     "marks": [
+        {
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": { "value": 0 },
+                        "y": { "value": 0 },
+                        "width": { "signal": "width" },
+                        "height": { "signal": "height" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 }
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -110,7 +126,7 @@ const vegaspec0 = {
             "encode": {
                 "enter": {
                     "height": {
-                        "value": 30
+                        "value": 0
                     },
                     "x": {
                         "scale": "xscale",
@@ -133,9 +149,9 @@ const vegaspec0 = {
             "type":"text",
             "encode":{
                 "enter":{
-                    "x":{"value": -10},
+                    "x":{"value": -18},
                     "y":{"signal":"height / 2"},
-                    "text":{"value":["Systolic blood", "pressure (mmHg)"]},
+                    "text":{"value":["Fasting blood glucose", "(mmol/L)"]},
                     "align":{"value":"right"},
                     "baseline":{"value":"middle"},
                     "fontSize":{"value":13}
@@ -199,7 +215,7 @@ const vegaspec0 = {
                         "value": "black"
                     },
                     "strokeWidth": {
-                        "value": 0
+                        "value": 1
                     }
                 }
             }
@@ -210,13 +226,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 5.2
                     },
                     "y": {
                         "signal": "height - 35 + 0 + 0" //Changed this 
                     },
                     "y2": {
-                        "signal": "height - 55 + 0 + 0" //Changed this 
+                        "signal": "height - 55 + 0 + 0" //Changed this
                     },
                     "stroke": {
                         "value": "black"
@@ -233,13 +249,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 5.2
                     },
                     "y": {
-                        "signal": "height - 35 + 0 + 0" //Changed this 
+                        "signal": "height - 35 + 0 + 0" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down"
                     },
                     "fill": {
                         "value": "black"
@@ -256,13 +272,13 @@ const vegaspec0 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 93
+                        "value": 5.2
                     },
                     "y": {
-                        "signal": "height - 45 + 0 + -15" //Changed this 
+                        "signal": "height - 45 + 0 + -15" //Changed this
                     },
                     "text": {
-                        "value": 93
+                        "value": 5.2
                     },
                     "align": {
                         "value": "center"
@@ -286,31 +302,31 @@ const vegaspec1 = {
     "title": {
         "text": "",
         "align": "left",
-        "orient": "bottom",
         "font": "sans-serif",
         "fontSize": 13,
         "color": "black"
     },
     "data": [
         {
+            "format": ".4f",
             "name": "table",
             "values": [
                 {
                     "name": "",
-                    "end": 60,
-                    "color": "red",
+                    "end": 3.9,
+                    "color": "white",
                     "order": 0
                 },
                 {
                     "name": "",
-                    "end": 30,
-                    "color": "green",
+                    "end": 7.1,
+                    "color": "white",
                     "order": 1
                 },
                 {
                     "name": "",
-                    "end": 30,
-                    "color": "red",
+                    "end": 3.9,
+                    "color": "white",
                     "order": 2
                 }
             ]
@@ -320,6 +336,7 @@ const vegaspec1 = {
             "source": "table",
             "transform": [
                 {
+                    
                     "type": "stack",
                     "field": "end",
                     "sort": {
@@ -356,20 +373,35 @@ const vegaspec1 = {
                 "field": "x1"
             },
             "range": "width",
-            "domainMin": 30,
+            "domainMin": 0,
             "zero": false
         }
     ],
     "axes": [
         {
+            "format": ".1f",
             "orient": "bottom",
             "scale": "xscale",
             "offset": 0,
             "tickCount": 2,
-            "values": [60,90] //Added this
+            "values":[3.9,11] //Added this
         }
     ],
     "marks": [
+         {
+            "type": "rect",
+                "encode": {
+                    "enter": {
+                        "x": { "value": 0 },
+                        "y": { "value": 0 },
+                        "width": { "signal": "width" },
+                        "height": { "signal": "height" },
+                        "fill": { "value": "transparent" },
+                        "stroke": { "value": "black" },
+                        "strokeWidth": { "value": 1 }
+            }
+          }
+        },
         {
             "type": "rect",
             "from": {
@@ -378,7 +410,7 @@ const vegaspec1 = {
             "encode": {
                 "enter": {
                     "height": {
-                        "value": 30
+                        "value": 0
                     },
                     "x": {
                         "scale": "xscale",
@@ -403,7 +435,7 @@ const vegaspec1 = {
                 "enter":{
                     "x":{"value": -10},
                     "y":{"signal":"height / 2"},
-                    "text":{"value":["Diastolic blood", "pressure (mmHg)"]},
+                    "text":{"value":["Two hours postprandial"," blood glucose (mmol/L)"]},
                     "align":{"value":"right"},
                     "baseline":{"value":"middle"},
                     "fontSize":{"value":13}
@@ -467,7 +499,7 @@ const vegaspec1 = {
                         "value": "black"
                     },
                     "strokeWidth": {
-                        "value": 0
+                        "value": 1
                     }
                 }
             }
@@ -478,7 +510,7 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 6.3
                     },
                     "y": {
                         "signal": "height - 15 + 0 - 20" //Changed this 
@@ -501,13 +533,13 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 6.3
                     },
                     "y": {
-                        "signal": "height -55 + 0 + 20" //Changed this 
+                        "signal": "height -55 + 0 + 20" //Changed this
                     },
                     "shape": {
-                        "value": "triangle-down" //Changed this 
+                        "value": "triangle-down" //Changed this
                     },
                     "fill": {
                         "value": "black"
@@ -524,13 +556,13 @@ const vegaspec1 = {
                 "enter": {
                     "x": {
                         "scale": "xscale",
-                        "value": 105
+                        "value": 6.3
                     },
                     "y": {
                         "signal": "height - 65 + 0 + 5" //Changed this 
                     },
                     "text": {
-                        "value": 105
+                        "value": 6.3
                     },
                     "align": {
                         "value": "center"
@@ -561,8 +593,7 @@ const bottomText = {
           "y": { "signal": "height / 2 " },
           "text": {
             "value": [
-              "Normal range: Systolic blood pressure (90-140 mmHg); Diastolic,",
-              "blood pressure (60-90 mmHg)"
+              "Normal range: fasting blood glucose (3.6–6.9 mmol/L);"," Two hours postprandial blood glucose (3.9–11.0 mmol/L)"
             ]
           },
           "align": { "value": "left" },
